@@ -1,2 +1,4 @@
 //index.js
-// export to Navbar.js
+// import to Navbar.js
+
+export { default } from "./Navbar";
