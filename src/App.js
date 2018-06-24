@@ -26,6 +26,7 @@ shuffle = () => {
 
 clicked = (id) => {
   this.shuffle();
+  if()
 }
 
 
