@@ -13,6 +13,16 @@ Memory game using React and Node.js
 - Bootstrap
 - Google Fonts
 
+## Launch the app
+* **Coming soon**
+[Memory-Click](url here.)
+
+
+## Sample of code
+
+```
+
+```
 
 
 
