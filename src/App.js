@@ -18,6 +18,9 @@ class App extends Component {
     highScore: 0,
   };
 
+
+
+
 shuffle = () => {
   let friends = this.state.friends;
   shuffleArr(friends);
@@ -26,7 +29,18 @@ shuffle = () => {
 
 clicked = (id) => {
   this.shuffle();
-  if()
+  let currentScore = this.state.currentScore;
+  let friend = this.state.friends.filter(friend => friend.id === id)[0];
+  console.log(friend);
+
+  //checking if the image is selected
+  if(friend.clicked === false){
+    friend.clicked = true;
+    console.log("If Statement:", friend);
+    currentScore++;
+  }
+  this.setState({ friend, currentScore });
+
 }
 
 
@@ -34,7 +48,7 @@ clicked = (id) => {
   render() {
     return (
       <div>
-      <Navbar />
+      <Navbar currentScore={this.state.currentScore} highScore={this.state.highScore}/>
       <Wrapper>
         <Title>Friends List</Title>
         {this.state.friends.map(friend => (
