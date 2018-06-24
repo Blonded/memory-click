@@ -2,8 +2,6 @@
 Memory game using React and Node.js
 
 
-
-
 ## Technologies Used
 - HTML
 - CSS
@@ -23,10 +21,6 @@ Memory game using React and Node.js
 ```
 
 ```
-
-
-
-
 
 ## Acknowledgements
 
