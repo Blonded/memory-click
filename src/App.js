@@ -30,17 +30,26 @@ shuffle = () => {
 clicked = (id) => {
   this.shuffle();
   let currentScore = this.state.currentScore;
+  let highScore = this.state.highScore;
   let friend = this.state.friends.filter(friend => friend.id === id)[0];
-  console.log(friend);
+  //console.log(friend);
 
   //checking if the image is selected
   if(friend.clicked === false){
     friend.clicked = true;
-    console.log("If Statement:", friend);
+    //console.log("If Statement:", friend);
+    
+    //incrementing the current score when clicked
     currentScore++;
+    //setting highscore
+    if(highScore < currentScore){
+      //setting the value
+      highScore = currentScore;
+    };
+  } else {
+      currentScore = 0;
   }
-  this.setState({ friend, currentScore });
-
+  this.setState({ friend, currentScore, highScore });
 }
 
 
