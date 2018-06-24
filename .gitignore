@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 
+# react auto readMe
+README-info.md
+
 # testing
 /coverage
 
