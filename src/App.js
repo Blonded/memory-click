@@ -38,7 +38,7 @@ clicked = (id) => {
   if(friend.clicked === false){
     friend.clicked = true;
     //console.log("If Statement:", friend);
-    
+
     //incrementing the current score when clicked
     currentScore++;
     //setting highscore
@@ -48,6 +48,10 @@ clicked = (id) => {
     };
   } else {
       currentScore = 0;
+      this.state.friends.map((friend) =>
+      {
+        return friend.clicked = false;
+      })
   }
   this.setState({ friend, currentScore, highScore });
 }

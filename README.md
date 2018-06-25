@@ -11,6 +11,9 @@ Memory game using React and Node.js
 - Bootstrap
 - Google Fonts
 
+## Required package(s)
+- shuffle-array
+
 ## Launch the app
 * **Coming soon**
 [Memory-Click](url here.)
