@@ -1,5 +1,10 @@
 ## Memory-Game
-Memory game using React and Node.js
+This is a memory game, where you choose your favorite family guy character - but make sure
+you don't pick them twice or else you'll lose!
+
+This game was used with React.js and Node.js.
+It will track your top score, and when you lose - your score will be set back to zero.
+Good luck!
 
 
 ## Technologies Used
@@ -15,17 +20,9 @@ Memory game using React and Node.js
 - shuffle-array
 
 ## Launch the app
-* **Coming soon**
 [Memory-Click](url here.)
 
-
-## Sample of code
-
-```
-
-```
-
-## Acknowledgements
+[Preview-Img](url: http://i67.tinypic.com/2q8rpfn.png)
 
 
 ## Authors
