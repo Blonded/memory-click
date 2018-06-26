@@ -20,9 +20,9 @@ Good luck!
 - shuffle-array
 
 ## Launch the app
-[Memory-Click](url here.)
+[Memory-Click](https://blonded.github.io/memory-click/)
 
-[Preview-Img](url: http://i67.tinypic.com/2q8rpfn.png)
+[Preview-Img](http://i67.tinypic.com/2q8rpfn.png)
 
 
 ## Authors
