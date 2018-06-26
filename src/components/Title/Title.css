@@ -1,8 +1,9 @@
 .title {
-  width: 100%;
+  width: 50%;
+  padding-top: 20px;
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
+  font-size: 35px;
+  color: white;
   margin-bottom: 50px;
+  font-family: 'Luckiest Guy', arial;
 }

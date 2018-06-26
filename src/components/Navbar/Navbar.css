@@ -2,3 +2,16 @@
 /* This will include the title,
 Top Score, Current Score.
 Status of the users choice. // alerts in text // (incorrect choice, Correct) */
+
+
+
+.navbar-brand{
+  /* styling for the Logo in nav */
+  font-size: 40px;
+  font-family: 'Monoton', arial;
+}
+
+/* Styling for the High Score and Current Score in the Nav bar. */
+/* .scores-nav{
+  justify-content: right;
+} */

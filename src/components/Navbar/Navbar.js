@@ -8,7 +8,7 @@ const Navbar = props => (
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="/">Memory-Click</a>
-  <p> HighScore: {props.highScore} </p>  <p> Current Score: {props.currentScore}</p>
+  <p className="scores-nav"> High Score: {props.highScore} |</p>  <p class="scores-nav">| Current Score:   {props.currentScore}</p>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

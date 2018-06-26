@@ -48,6 +48,7 @@ clicked = (id) => {
     };
   } else {
       currentScore = 0;
+      alert("Woops, You already chose that. Try again!");
       this.state.friends.map((friend) =>
       {
         return friend.clicked = false;
@@ -63,7 +64,7 @@ clicked = (id) => {
       <div>
       <Navbar currentScore={this.state.currentScore} highScore={this.state.highScore}/>
       <Wrapper>
-        <Title>Friends List</Title>
+        <Title>Time to test your memory! Choose the same character twice & you lose! Ready -- Go!</Title>
         {this.state.friends.map(friend => (
           <FriendCard
             id={friend.id}
