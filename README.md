@@ -26,4 +26,4 @@ Good luck!
 
 
 ## Authors
-* **Lena Martinson** [Github](https://github.com/Blonded/memory-click)
+* **Lena Blonded** [Github](https://github.com/Blonded/memory-click)
