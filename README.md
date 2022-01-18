@@ -22,7 +22,7 @@ Good luck!
 ## Launch the app
 [Memory-Click](https://blonded.github.io/memory-click/)
 
-![Preview-Img](http://i67.tinypic.com/2q8rpfn.png)
+![Preview-Img]()
 
 
 ## Authors
